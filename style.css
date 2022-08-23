@@ -1,0 +1,62 @@
+/* common style  */
+bg-black {
+    background-color: black;
+}
+
+text-gray {
+    color: gray;
+}
+
+/* header section style  */
+header {
+    min-height: 35em;
+    position: relative;
+}
+
+.banner-left-img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.banner-left-img img {
+    height: 450px;
+}
+
+
+.banner-right-img {
+    position: absolute;
+    top: 2em;
+    right: 5%;
+    height: 250px;
+    width: 250px;
+}
+
+
+
+.banner-detail {
+    height: 35em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-title {
+    font-size: 5rem;
+    color: #FF5E19;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+.banner-detail p {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+}
+
+/* player list section */
+.player-list {
+    min-height: 380px;
+}
+
+.card-img-top {
+    height: 250px;
+}
